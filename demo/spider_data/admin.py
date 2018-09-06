@@ -5,7 +5,7 @@ from django.contrib import admin
 
 
 @admin.register(Data)
-class BookInfoAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name','addr','phone']
+class ShopDataAdmin(admin.ModelAdmin):
+    list_display = ['id', 'shop_name','shop_addr','aver_price','shop_star','comment_count']
 
 
